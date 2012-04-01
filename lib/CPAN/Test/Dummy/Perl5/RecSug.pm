@@ -1,9 +1,8 @@
-use 5.008001;
 use strict;
 use warnings;
 
 package CPAN::Test::Dummy::Perl5::RecSug;
-# ABSTRACT: No abstract given for CPAN::Test::Dummy::Perl5::RecSug
+# ABSTRACT: CPAN test dummy with optional prereqs
 # VERSION
 
 # Dependencies
@@ -19,16 +18,17 @@ use autodie 2.00;
 
 =head1 DESCRIPTION
 
-This module might be cool, but you'd never know it from the lack
-of documentation.
+This test dummy is for testing CPAN clients.  It has optional build and runtime
+prerequisites of the 'recommends' and 'suggests' type.  Some of these
+prerequisites are other test dummies that are guaranteed to fail.
 
 =head1 USAGE
 
-Good luck!
+Don't use this if you don't already know how it works.
 
-=head1 SEE ALSO
+Seriously.  This is not for the casual Perl programmer.
 
-Maybe other modules do related things.
+Consider yourself warned.
 
 =cut
 
